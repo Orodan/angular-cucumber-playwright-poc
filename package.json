@@ -13,7 +13,8 @@
     "e2e:codegen": "playwright test codegen",
     "e2e:headed": "playwright test --headed",
     "e2e:debug": "playwright test --debug",
-    "cucumber": "cucumber-js"
+    "cucumber": "TS_NODE_PROJECT=tsconfig.e2e.json cucumber-js",
+    "cucumber:debug": "TS_NODE_PROJECT=tsconfig.e2e.json DEBUG=cucumber cucumber-js"
   },
   "private": true,
   "dependencies": {
