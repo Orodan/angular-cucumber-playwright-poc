@@ -22,12 +22,17 @@ npm run e2e
 
 En mode headed (navigateurs visibles) : 
 ```bash
-npm run cucumber:headed
+npm run e2e:headed
 ```
 
 En mode debug : 
 ```bash
-npm run cucumber:debug
+npm run e2e:debug
+```
+
+Lancement du générateur de tests Playwright : 
+```bash
+npm run e2e:codegen
 ```
 
 ## Lancement des tests Cucumber
